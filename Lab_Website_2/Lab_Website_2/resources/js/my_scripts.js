@@ -173,9 +173,9 @@ aTag1.setAttribute('href',"#");
 
 aTag1.setAttribute('class',"list-group-item");
 
-aTag1.setAttribute('onClick',"switchPlayer(0)");
+aTag1.setAttribute('onClick',"playerPlayers(0)");
 
-aTag1.innerText = "Player 1";
+aTag1.innerText = "John Doe";
 
 dropdown.appendChild(aTag1);
 
@@ -187,9 +187,9 @@ aTag2.setAttribute('href',"#");
 
 aTag2.setAttribute('class',"list-group-item");
 
-aTag2.setAttribute('onClick',"switchPlayer(1)");
+aTag2.setAttribute('onClick',"playerPlayers(1)");
 
-aTag2.innerText = "Player 2";
+aTag2.innerText = "James Smith";
 
 dropdown.appendChild(aTag2);
 
@@ -201,9 +201,9 @@ aTag3.setAttribute('href',"#");
 
 aTag3.setAttribute('class',"list-group-item");
 
-aTag3.setAttribute('onClick',"switchPlayer(2)");
+aTag3.setAttribute('onClick',"playerPlayers(2)");
 
-aTag3.innerText = "Player 3";
+aTag3.innerText = "Samuel Phillips";
 
 dropdown.appendChild(aTag3);
 
@@ -215,9 +215,9 @@ aTag4.setAttribute('href',"#");
 
 aTag4.setAttribute('class',"list-group-item");
 
-aTag4.setAttribute('onClick',"switchPlayer(3)");
+aTag4.setAttribute('onClick',"playerPlayers(3)");
 
-aTag4.innerText = "Player 4";
+aTag4.innerText = "Robert Myers";
 
 dropdown.appendChild(aTag4);
 
